@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* C10 */
+    background-color: rgb(238, 248, 246);
+}
+body *{
+    margin-bottom: 5vh;
+    
+}
+
+.icon{
+    min-width: 300px;
+    max-width: 300px;
+}
+h1 {
+    /* C7 */
+    font-size: 30px;
+    /* C8 */
+    font-family: monospace;
+  }
+ 
+input[type=text] {
+     /* C1 */
+    padding: 12px 20px;
+     /* C2 */
+    margin: 8px 0;
+     /* C3 */
+    box-sizing: border-box;
+    /* C4 */
+    border: 2px solid #cdebe5;
+    /* C5 */
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    /* C6 */
+    border: 3px solid #a2b1ae;
+}
+ button {
+      /* C8 */
+    position: absolute;
+     /* C9 */
+    top: 117%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #bdafaf;
+    border: none;
+    cursor: pointer;
+   
+}
